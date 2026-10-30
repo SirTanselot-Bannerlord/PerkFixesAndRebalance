@@ -16,3 +16,7 @@ Initial Nexus release. See `NEXUS.md`.
 ## 1.0.2
 
 - Fix stutter in fought battles (1.0.1 regression). Without RBM, every downed troop re-ran a slow search of all loaded types. It now resolves once at game start. Commodore and Flexible Fighter lookups are cached and cheaper too.
+
+## 1.0.3
+
+- Localization support: every player-facing string (perk tooltips and MCM) has a translation key; English template ships under `ModuleData/Languages/`. Untranslated languages still show English. Thanks to OhMyMike57 / Cartoonist57.

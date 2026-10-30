@@ -15,9 +15,11 @@ try {
     $srcDll = Join-Path $root "bin\Release\PerkFixesAndRebalance.dll"
     $srcPdb = Join-Path $root "bin\Release\PerkFixesAndRebalance.pdb"
     $srcXml = Join-Path $root "SubModule.xml"
+    $srcModuleData = Join-Path $root "ModuleData"
     $mod = "D:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\PerkFixesAndRebalance"
     $destDir = Join-Path $mod "bin\Win64_Shipping_Client"
     $destDll = Join-Path $destDir "PerkFixesAndRebalance.dll"
+    $destModuleData = Join-Path $mod "ModuleData"
     Write-Output "PENDING waiting for DLL unlock"
     while ($true) {
         $locked = $false
@@ -35,6 +37,12 @@ try {
                 Copy-Item $srcDll $destDir -Force
                 if (Test-Path $srcPdb) { Copy-Item $srcPdb $destDir -Force }
                 Copy-Item $srcXml $mod -Force
+                if (Test-Path $srcModuleData) {
+                    if (Test-Path $destModuleData) {
+                        Remove-Item $destModuleData -Recurse -Force
+                    }
+                    Copy-Item $srcModuleData $destModuleData -Recurse -Force
+                }
                 $srcHash = (Get-FileHash $srcDll -Algorithm SHA256).Hash
                 $destHash = (Get-FileHash $destDll -Algorithm SHA256).Hash
                 if ($srcHash -ne $destHash) {

@@ -7,13 +7,19 @@ alwaysApply: true
 
 Details: personal skills `bannerlord-deploy-watcher` (build/deploy) and
 `bannerlord-release` (version bump, zip). This rule is the always-on summary.
+Localization details: `.cursor/rules/localization.mdc` (also always on).
 
 - **Module:** `PerkFixesAndRebalance`, deployed to
   `D:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\PerkFixesAndRebalance`.
 - **Deploy** every finished change that builds. Build with `-p:SkipBannerlordDeploy=true`,
-  copy `SubModule.xml` and the DLL/PDB into the module folder, and if the DLL is locked
-  run `"D:\Games\Bannerlord\Mod-dev\PerkFixesAndRebalance\tools\deploy-watcher.ps1" -Once`
+  copy `SubModule.xml`, `ModuleData\` (when present), and the DLL/PDB into the module
+  folder, and if the DLL is locked run
+  `"D:\Games\Bannerlord\Mod-dev\PerkFixesAndRebalance\tools\deploy-watcher.ps1" -Once`
   in the agent Shell (`block_until_ms: 0`, `notify_on_output` `DEPLOYED|UP TO DATE|FAILED|MISMATCH`).
+- **Localization:** when adding or changing player-facing strings, follow
+  `localization.mdc` (tag with `{=PFx_…}`, update `ModuleData/Languages/pfx_strings_en.xml`,
+  run `powershell -File tools/check-localization.ps1` until it prints `Localization OK`).
+  Do this in the same change/commit as the string edit.
 - If Auto-review blocks a build, copy, or watcher call, retry that same call with
   approval. Do not drop the deploy.
 - Never `Start-Process` a watcher, and never poll or `AwaitShell` for it. End the
@@ -23,4 +29,5 @@ Details: personal skills `bannerlord-deploy-watcher` (build/deploy) and
   uncommitted work. No push or amend unless asked.
 - **Version bumps and release zips only when asked.** `dist/` stays gitignored.
   Remove debug logging and stray log files (repo and module folder) before zipping.
+  Release zips must include `ModuleData\` next to `bin\` and `SubModule.xml`.
 - Work only in this repo. Never run or edit another mod's watcher or files.
