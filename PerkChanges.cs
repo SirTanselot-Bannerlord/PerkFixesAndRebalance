@@ -166,15 +166,16 @@ namespace PerkFixesAndRebalance
             float perPoint = s.MinisterOfHealthHitpointsPerSkillPoint;
             if (s.MinisterOfHealthSurgeon || Math.Abs(perPoint - 1f) > 0.001f)
             {
-                // Literal value: the {VALUE} formatter rounds to one decimal, which would show 0.675 as 0.7.
-                Edit(perks, "_medicineMinisterOfHealth",
+                // Own variable: the {VALUE} formatter rounds to one decimal, which would show 0.675 as 0.7.
+                SetMinisterHitpoints(Edit(perks, "_medicineMinisterOfHealth",
                     primaryRole: s.MinisterOfHealthSurgeon ? PartyRole.Surgeon : (PartyRole?)null, primaryBonus: perPoint,
-                    primaryDescription: $"{{=PFx_Minister}}+{perPoint:0.###} hit points to troops for every point of Medicine above 250.");
+                    primaryDescription: "{=PFx_Minister}+{HP_PER_POINT} hit points to troops for every point of Medicine above 250."), perPoint);
             }
             else if (clarify)
             {
                 // Vanilla reads the party leader, but labels Personal.
-                Edit(perks, "_medicineMinisterOfHealth", primaryRole: PartyRole.PartyLeader);
+                // A re-apply keeps the text set above, so its variable needs a value again.
+                SetMinisterHitpoints(Edit(perks, "_medicineMinisterOfHealth", primaryRole: PartyRole.PartyLeader), perPoint);
             }
 
             if (s.SledgesSurgeon)
@@ -472,6 +473,22 @@ namespace PerkFixesAndRebalance
                 effect.LimitMax);
         }
 
+        /// <summary>
+        /// Fills {HP_PER_POINT} in the Minister of Health text. Set on both objects: with no secondary line,
+        /// PerkObject.Initialize gives Description a copy of PrimaryDescription.
+        /// </summary>
+        private static void SetMinisterHitpoints(PerkObject perk, float perPoint)
+        {
+            if (perk == null)
+            {
+                return;
+            }
+
+            string value = perPoint.ToString("0.###");
+            perk.PrimaryDescription?.SetTextVariable("HP_PER_POINT", value);
+            perk.Description?.SetTextVariable("HP_PER_POINT", value);
+        }
+
         /// <summary>Re-apply after MCM is ready; InitializeAll can run before settings load.</summary>
         internal static void ReapplyAll()
         {
@@ -498,11 +515,19 @@ namespace PerkFixesAndRebalance
         /// </summary>
         private static void ApplyMovementSpeedDescriptions(DefaultPerks perks, bool shieldFix, bool formFittingOnce)
         {
-            string onFoot = shieldFix ? "troops on foot in your formation" : "troops on foot in your formation not holding a shield";
-            Edit(perks, "_athleticsMorningExercise", secondaryDescription: "{=PFx_MorningExercise}{VALUE}% combat movement speed to " + onFoot + ".");
-            Edit(perks, "_oneHandedShieldBearer", secondaryDescription: "{=PFx_ShieldBearer}{VALUE}% movement speed to " + onFoot + ".");
-            Edit(perks, "_oneHandedFleetOfFoot", secondaryDescription: "{=PFx_FleetOfFoot}{VALUE}% movement speed to " + onFoot + ".");
-            Edit(perks, "_polearmFootwork", secondaryDescription: "{=PFx_Footwork}{VALUE}% movement speed to " + onFoot + ".");
+            // Whole sentences per variant: a localized string can't be spliced from English fragments.
+            Edit(perks, "_athleticsMorningExercise", secondaryDescription: shieldFix
+                ? "{=PFx_MorningExercise}{VALUE}% combat movement speed to troops on foot in your formation."
+                : "{=PFx_MorningExerciseNoShield}{VALUE}% combat movement speed to troops on foot in your formation not holding a shield.");
+            Edit(perks, "_oneHandedShieldBearer", secondaryDescription: shieldFix
+                ? "{=PFx_ShieldBearer}{VALUE}% movement speed to troops on foot in your formation."
+                : "{=PFx_ShieldBearerNoShield}{VALUE}% movement speed to troops on foot in your formation not holding a shield.");
+            Edit(perks, "_oneHandedFleetOfFoot", secondaryDescription: shieldFix
+                ? "{=PFx_FleetOfFoot}{VALUE}% movement speed to troops on foot in your formation."
+                : "{=PFx_FleetOfFootNoShield}{VALUE}% movement speed to troops on foot in your formation not holding a shield.");
+            Edit(perks, "_polearmFootwork", secondaryDescription: shieldFix
+                ? "{=PFx_Footwork}{VALUE}% movement speed to troops on foot in your formation."
+                : "{=PFx_FootworkNoShield}{VALUE}% movement speed to troops on foot in your formation not holding a shield.");
             Edit(perks, "_twoHandedRecklessCharge", secondaryDescription: shieldFix
                 ? "{=PFx_RecklessCharge}{VALUE}% damage with any attack and movement speed to troops on foot in your formation."
                 : "{=PFx_RecklessChargeShield}{VALUE}% damage with any attack and movement speed to troops on foot in your formation. No movement speed while holding a shield.");

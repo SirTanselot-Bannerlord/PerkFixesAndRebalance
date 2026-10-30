@@ -1,0 +1,33 @@
+---
+description: Keep every player-facing string localizable and the English template in sync
+alwaysApply: true
+---
+
+# Localization
+
+Translators work from `ModuleData/Languages/pfx_strings_en.xml`. A string without an id, or missing
+from that file, stays English in every language.
+
+- **Every player-facing string gets an id**: perk and skill-effect descriptions, `TextObject` text,
+  MCM setting names, `HintText`, and group names. Form: `"{=PFx_Name}English text"`. Log and
+  `Debug.Print` text needs none.
+- **Id names**: perk text `PFx_<Perk>` (variants get a suffix, e.g. `PFx_FootworkNoShield`);
+  MCM `PFx_Mcm_<PropertyName>` and `PFx_Mcm_<PropertyName>_Hint`; MCM group `PFx_McmGroup_<ConstName>`.
+  Ids are never reused for a different text.
+- **MCM groups**: MCM localizes each `|` segment on its own, so each segment carries its own id:
+  `Battle + "|{=PFx_McmGroup_MovementSpeed}Movement speed"`. `DisplayName` is not localized by MCM;
+  return `new TextObject("{=PFx_Mcm_ModName}...").ToString()`.
+- **Whole sentences only**: never build a sentence with `+` from pieces at runtime (other languages
+  need a different word order). Write one complete string per variant. Compile-time constants such
+  as `+ LoadNote` are fine: they fold into one string with one id.
+- **Numbers go in variables**: no `$"..."` interpolation in descriptions. Use `{VALUE}` (filled by the
+  game from the perk bonus) or your own `{NAME}` set with `SetTextVariable`
+  (see `SetMinisterHitpoints` in `PerkChanges.cs`).
+- **Update the template in the same commit**: add, change or remove the matching
+  `<string id="..." text="..." />` in `ModuleData/Languages/pfx_strings_en.xml` (line breaks as `&#10;`,
+  quotes as `&quot;`). When English text changes, keep its id and change the text in both places.
+- **Check before committing**: `powershell -File tools/check-localization.ps1` must print
+  `Localization OK`. It lists untagged strings, ids missing from or stale in the template, and text
+  that differs from the code.
+- **Other language folders** under `ModuleData/Languages/` belong to translators. Don't edit them.
+- **Release zips include `ModuleData/`** next to `bin/` and `SubModule.xml`.

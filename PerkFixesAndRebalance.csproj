@@ -79,6 +79,10 @@
     <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(BannerlordModuleDir)\bin\Win64_Shipping_Client" SkipUnchangedFiles="false" />
     <Copy SourceFiles="$(TargetDir)$(TargetName).pdb" DestinationFolder="$(BannerlordModuleDir)\bin\Win64_Shipping_Client" SkipUnchangedFiles="false" Condition="Exists('$(TargetDir)$(TargetName).pdb')" />
     <Copy SourceFiles="$(MSBuildProjectDirectory)\SubModule.xml" DestinationFolder="$(BannerlordModuleDir)" SkipUnchangedFiles="false" />
+    <ItemGroup>
+      <LanguageFiles Include="$(MSBuildProjectDirectory)\ModuleData\**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(LanguageFiles)" DestinationFiles="@(LanguageFiles->'$(BannerlordModuleDir)\ModuleData\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="false" />
     <Message Importance="high" Text="Deployed $(TargetFileName) to $(BannerlordModuleDir)" />
   </Target>
 

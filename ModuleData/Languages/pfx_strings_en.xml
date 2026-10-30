@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="PFx_Basher" text="{VALUE}% melee damage taken by troops in your formation while it is in shield wall." />
+    <string id="PFx_Cavalry1H" text="{VALUE}% melee damage by mounted troops in your formation." />
+    <string id="PFx_SteelCore" text="{VALUE}% damage to shields of troops on foot in your formation." />
+    <string id="PFx_DeadlyPurpose" text="{VALUE}% melee damage by troops on foot in your formation." />
+    <string id="PFx_WoodChopper" text="{VALUE}% damage against shields with two handed weapons by troops in your formation." />
+    <string id="PFx_HeadBasher" text="{VALUE}% damage with any attack by troops on foot in your formation." />
+    <string id="PFx_OnTheEdge" text="{VALUE}% melee swing speed to troops on foot in your formation." />
+    <string id="PFx_ShieldBreaker2H" text="{VALUE}% damage against shields with two handed weapons by troops in your formation." />
+    <string id="PFx_BeastSlayer" text="{VALUE}% damage to mounts with two handed weapons by troops in your formation." />
+    <string id="PFx_BladeMaster" text="{VALUE}% melee attack speed to troops on foot in your formation." />
+    <string id="PFx_CavalryPolearm" text="{VALUE}% damage with any attack, including horse charges, by mounted troops in your formation." />
+    <string id="PFx_Pikeman" text="{VALUE}% damage with any attack by troops on foot in your formation." />
+    <string id="PFx_BracedPolearm" text="{VALUE}% damage with any attack against mounted troops and their mounts by troops on foot in your formation." />
+    <string id="PFx_SwiftSwing" text="{VALUE}% melee swing speed to troops on foot in your formation." />
+    <string id="PFx_SteedKiller" text="{VALUE}% damage to mounts with polearms by troops on foot in your formation." />
+    <string id="PFx_UnstoppableForce" text="{VALUE}% damage bonus from speed with polearms to mounted troops in your formation." />
+    <string id="PFx_SharpenTheTip" text="{VALUE}% thrust damage with melee weapons by troops on foot in your formation." />
+    <string id="PFx_BowControl" text="{VALUE}% damage with bows by troops in your formation. Doesn't apply to shields." />
+    <string id="PFx_QuickAdjustments" text="{VALUE}% accuracy penalty with bows to troops in your formation." />
+    <string id="PFx_RapidFire" text="{VALUE}% bow reload speed to troops in your formation." />
+    <string id="PFx_StrongBows" text="{VALUE}% damage with bows by tier 3+ troops in your formation. Doesn't apply to shields." />
+    <string id="PFx_SkirmishPhaseMaster" text="{VALUE}% damage taken from projectiles by archers and horse archers in your formation." />
+    <string id="PFx_Unhorser" text="{VALUE}% crossbow damage against mounts by troops in your formation." />
+    <string id="PFx_Sheriff" text="{VALUE}% crossbow damage against troops on foot by troops in your formation." />
+    <string id="PFx_CounterFire" text="{VALUE}% damage taken from projectiles by troops in your formation wielding a crossbow." />
+    <string id="PFx_HammerBolts" text="{VALUE}% damage with crossbows by troops in your formation. Doesn't apply to shields." />
+    <string id="PFx_KnockOff" text="{VALUE}% throwing damage against mounted troops and their mounts by troops in your formation." />
+    <string id="PFx_NimbleSteed" text="{VALUE} Riding skill to cavalry and horse archers in your formation." />
+    <string id="PFx_HorseArcher" text="{VALUE}% ranged damage by mounted troops in your formation." />
+    <string id="PFx_ThunderousCharge" text="{VALUE}% battle morale penalty to enemies from weapon kills by mounted troops in your formation. Horse charge kills don't count." />
+    <string id="PFx_Fury" text="{VALUE}% melee weapon handling to troops on foot in your formation." />
+    <string id="PFx_SurgingBlow" text="{VALUE}% damage bonus from speed to troops on foot in your formation." />
+    <string id="PFx_IgnorePain" text="{VALUE} armor to all equipped armor pieces of troops on foot in your formation." />
+    <string id="PFx_Gensdarmes" text="{VALUE}% damage with any attack, including horse charges, against troops on foot by mounted troops in your formation." />
+    <string id="PFx_Carver" text="{VALUE}% one handed damage by troops in your formation." />
+    <string id="PFx_DreadfulBesieger" text="{VALUE}% damage with crossbows by troops in your formation. Doesn't apply to shields." />
+    <string id="PFx_SkysFury" text="{VALUE}% to bow and crossbow damage dealt by crew. Doesn't apply to shields." />
+    <string id="PFx_SpecialArrows" text="{VALUE} armor to tier 1-3 troops in your formation in naval battles." />
+    <string id="PFx_Vandal" text="{VALUE}% armor penetration with two handed weapons." />
+    <string id="PFx_Chink" text="{VALUE}% armor penetration with one handed weapons." />
+    <string id="PFx_HorseMaster" text="{VALUE} Bow skill to cavalry and horse archers in your formation, mounted or on foot." />
+    <string id="PFx_FletcherA" text="{VALUE} bolts per crossbow quiver." />
+    <string id="PFx_FletcherB" text="{VALUE} bolts per crossbow quiver to troops in your party." />
+    <string id="PFx_DeepQuiversA" text="{VALUE} extra arrows per bow quiver." />
+    <string id="PFx_DeepQuiversB" text="{VALUE} extra arrow per bow quiver to troops in your party." />
+    <string id="PFx_FlexibleFighterCav" text="{VALUE} Bow, Crossbow and Throwing skill to infantry and cavalry, and {VALUE} One Handed, Two Handed and Polearm skill to archers and horse archers in your formation." />
+    <string id="PFx_FlexibleFighter" text="{VALUE} Bow, Crossbow and Throwing skill to infantry, and {VALUE} One Handed, Two Handed and Polearm skill to archers and horse archers in your formation." />
+    <string id="PFx_WrappedHandlesAll" text="{VALUE} One Handed skill to troops in your formation." />
+    <string id="PFx_WrappedHandles" text="{VALUE} One Handed skill to infantry and archers in your formation." />
+    <string id="PFx_StrongGripAll" text="{VALUE} Two Handed skill to troops in your formation." />
+    <string id="PFx_StrongGrip" text="{VALUE} Two Handed skill to infantry and archers in your formation." />
+    <string id="PFx_CleanThrustAll" text="{VALUE} Polearm skill to troops in your formation." />
+    <string id="PFx_CleanThrust" text="{VALUE} Polearm skill to infantry and archers in your formation." />
+    <string id="PFx_Counterweight" text="{VALUE} Polearm skill to infantry and archers in your formation." />
+    <string id="PFx4_MasteryPL" text="{VALUE}% damage for every Tactics point above 200 when auto-resolving.&#10;Half as effective at sea." />
+    <string id="PFx4_MasteryPLBat" text="{VALUE}% damage for every Tactics point above 200 when auto-resolving.&#10;+0.05% more damage dealt and less damage taken per point above 200 in land battles you fight.&#10;Either effect is half as effective at sea." />
+    <string id="PFx_Minister" text="+{HP_PER_POINT} hit points to troops for every point of Medicine above 250." />
+    <string id="PFx_WhiteLiesGov" text="{VALUE}% chance per day for +1 relation with a random notable in the governed settlement." />
+    <string id="PFx_ScarfaceGov" text="{VALUE}% chance per day for +1 relation with a random gang leader in the governed settlement." />
+    <string id="PFx_PickedShotsA" text="{VALUE}% wages of tier 4+ crossbow troops." />
+    <string id="PFx_PickedShotsB" text="{VALUE} hit points to crossbow troops in your party." />
+    <string id="PFx_ShatterBlowA" text="{VALUE}% armor penetration for melee weapons in naval battles." />
+    <string id="PFx_ShatterBlowB" text="{VALUE}% armor penetration for melee weapons wielded by crew in naval battles." />
+    <string id="PFx_ShatterVolleyA" text="{VALUE}% armor penetration for ranged weapons in naval battles." />
+    <string id="PFx_ShatterVolleyB" text="{VALUE}% armor penetration for ranged weapons wielded by crew in naval battles." />
+    <string id="PFx_BruteForce" text="{VALUE}% kicking and bashing damage, on land and at sea." />
+    <string id="PFx_NavalBombardment" text="Shipboard ballistas fire during sieges. Not implemented in War Sails: has no effect." />
+    <string id="PFx_CommodoreAlone" text="Your flagship figurehead bonus applies to all of your ships' crews. In an army you lead, each party gets the same from its own flagship." />
+    <string id="PFx_Commodore" text="In an army you lead, each party's flagship figurehead bonus applies to that party's troops on all of its ships." />
+    <string id="PFx_StreamlinedOps" text="{VALUE}% ballista reload speed." />
+    <string id="PFx_Arr" text="{VALUE}% xp gain after each naval battle for mariner troops under character's command." />
+    <string id="PFx_PirateHunter" text="{VALUE}% xp gain after each naval battle for regular troops under character's command." />
+    <string id="PFx_ShipLimit" text="{VALUE} ship to command limit in naval battles." />
+    <string id="PFx4_TightSim" text="{VALUE}% damage by your infantry against cavalry when auto-resolving land battles." />
+    <string id="PFx4_LooseSim" text="{VALUE}% damage taken by your infantry from ranged troops when auto-resolving land battles." />
+    <string id="PFx4_ExtSkirmSim" text="{VALUE}% damage in snowy and forest terrain when auto-resolving land battles." />
+    <string id="PFx4_DecBattleSim" text="{VALUE}% damage in plains, steppes and deserts when auto-resolving land battles." />
+    <string id="PFx4_LawKeeperSim" text="{VALUE}% damage against bandits when auto-resolving land battles." />
+    <string id="PFx4_CoachingSim" text="{VALUE}% damage when auto-resolving land battles." />
+    <string id="PFx4_EliteSim" text="{VALUE}% damage taken by tier 3+ troops when auto-resolving land battles." />
+    <string id="PFx4_EncircleSim" text="{VALUE}% damage when auto-resolving land battles while you outnumber the enemy." />
+    <string id="PFx4_CounterOffASim" text="{VALUE}% damage when auto-resolving as the attacker in a land field battle." />
+    <string id="PFx4_CounterOffBSim" text="{VALUE}% damage when auto-resolving land battles while outnumbered." />
+    <string id="PFx4_VanguardASim" text="{VALUE}% damage when auto-resolving land battles as the attacker." />
+    <string id="PFx4_VanguardBSim" text="{VALUE}% damage when auto-resolving a land sally out." />
+    <string id="PFx4_RearguardSim" text="{VALUE}% damage when auto-resolving land battles while defending your siege camp." />
+    <string id="PFx4_TrustedSim" text="{VALUE}% experience for troops when auto-resolving land battles." />
+    <string id="PFx4_PreBattleSim" text="{VALUE}% battle advantage for every 100 Tactics your side's commander has over the enemy commander when auto-resolving land battles." />
+    <string id="PFx4_PatrolsSim" text="{VALUE}% battle advantage against bandits when auto-resolving land battles. Uses your side's commander." />
+    <string id="PFx4_BesiegedSim" text="{VALUE}% damage when auto-resolving as the attacker in a siege. Needs the perk on any hero in this party." />
+    <string id="PFx4_OnTheMarchSim" text="{VALUE}% fortification bonus to the enemy when auto-resolving a land siege." />
+    <string id="PFx4_MasterySim" text="{VALUE}% damage for every Tactics point above 200 when auto-resolving. Only the army leader's own party.&#10;Half as effective at sea." />
+    <string id="PFx4_TightBat" text="{VALUE}% damage by your infantry against cavalry when auto-resolving land battles.&#10;+5% damage by your infantry against cavalry in land battles you fight." />
+    <string id="PFx4_LooseBat" text="{VALUE}% damage taken by your infantry from ranged troops when auto-resolving land battles.&#10;-5% damage taken by your infantry from ranged troops in land battles you fight." />
+    <string id="PFx4_ExtSkirmBat" text="{VALUE}% damage in snowy and forest terrain when auto-resolving land battles.&#10;+5% damage in snowy and forest terrain in land battles you fight." />
+    <string id="PFx4_DecBattleBat" text="{VALUE}% damage in plains, steppes and deserts when auto-resolving land battles.&#10;+2.5% damage in plains, steppes and deserts in land battles you fight." />
+    <string id="PFx4_LawKeeperBat" text="{VALUE}% damage against bandits when auto-resolving land battles.&#10;+5% damage against bandits in land battles you fight." />
+    <string id="PFx4_CoachingBat" text="{VALUE}% damage when auto-resolving land battles.&#10;+1% damage in land battles you fight." />
+    <string id="PFx4_EliteBat" text="{VALUE}% damage taken by tier 3+ troops when auto-resolving land battles.&#10;-4% damage taken by tier 3+ troops in land battles you fight." />
+    <string id="PFx4_EncircleBat" text="{VALUE}% damage when auto-resolving land battles while you outnumber the enemy.&#10;+2.5% damage while you outnumber the enemy in land battles you fight." />
+    <string id="PFx4_CounterOffABat" text="{VALUE}% damage when auto-resolving as the attacker in a land field battle.&#10;+2% damage as the attacker in land field battles you fight." />
+    <string id="PFx4_CounterOffBBat" text="{VALUE}% damage when auto-resolving land battles while outnumbered.&#10;+2% damage while outnumbered in land battles you fight." />
+    <string id="PFx4_VanguardABat" text="{VALUE}% damage when auto-resolving land battles as the attacker.&#10;+2.5% damage as the attacker in land battles you fight." />
+    <string id="PFx4_VanguardBBat" text="{VALUE}% damage when auto-resolving a land sally out.&#10;+5% damage in land sally outs you fight." />
+    <string id="PFx4_RearguardBat" text="{VALUE}% damage when auto-resolving land battles while defending your siege camp.&#10;+5% damage while defending your siege camp in land battles you fight." />
+    <string id="PFx4_TrustedBat" text="{VALUE}% experience for troops when auto-resolving land battles.&#10;+4% experience for troops in land battles you fight." />
+    <string id="PFx4_PreBattleBat" text="{VALUE}% damage for every 100 Tactics your side's commander has over the enemy commander when auto-resolving land battles.&#10;Same damage bonus in land battles you fight." />
+    <string id="PFx4_PatrolsBat" text="{VALUE}% battle advantage against bandits when auto-resolving land battles.&#10;+5% damage against bandits in land battles you fight. Uses your side's commander." />
+    <string id="PFx4_BesiegedBat" text="{VALUE}% damage when auto-resolving as the attacker in a siege.&#10;+5% damage as the attacker in sieges you fight. Needs the perk on any hero in this party." />
+    <string id="PFx4_OnTheMarchBat" text="{VALUE}% fortification bonus to the enemy when auto-resolving a land siege.&#10;+2% damage when attacking in sieges you fight." />
+    <string id="PFx4_MasteryBat" text="{VALUE}% damage for every Tactics point above 200 when auto-resolving. Only the army leader's own party.&#10;+0.05% more damage dealt and less damage taken per point above 200 in land battles you fight.&#10;Either effect is half as effective at sea." />
+    <string id="PFx5_TacticsFlee" text="Fewer troops lost when fleeing: +{a0}%" />
+    <string id="PFx5_TacticsAdv" text="Battle advantage when auto-resolving land battles: +{a0}%" />
+    <string id="PFx5_LeadMorale" text="Party morale: +{a0}" />
+    <string id="PFx5_LeadGarrison" text="Garrison size: +{a0}" />
+    <string id="PFx_MorningExercise" text="{VALUE}% combat movement speed to troops on foot in your formation." />
+    <string id="PFx_MorningExerciseNoShield" text="{VALUE}% combat movement speed to troops on foot in your formation not holding a shield." />
+    <string id="PFx_ShieldBearer" text="{VALUE}% movement speed to troops on foot in your formation." />
+    <string id="PFx_ShieldBearerNoShield" text="{VALUE}% movement speed to troops on foot in your formation not holding a shield." />
+    <string id="PFx_FleetOfFoot" text="{VALUE}% movement speed to troops on foot in your formation." />
+    <string id="PFx_FleetOfFootNoShield" text="{VALUE}% movement speed to troops on foot in your formation not holding a shield." />
+    <string id="PFx_Footwork" text="{VALUE}% movement speed to troops on foot in your formation." />
+    <string id="PFx_FootworkNoShield" text="{VALUE}% movement speed to troops on foot in your formation not holding a shield." />
+    <string id="PFx_RecklessCharge" text="{VALUE}% damage with any attack and movement speed to troops on foot in your formation." />
+    <string id="PFx_RecklessChargeShield" text="{VALUE}% damage with any attack and movement speed to troops on foot in your formation. No movement speed while holding a shield." />
+    <string id="PFx_Sprint" text="{VALUE}% combat movement speed to infantry in your formation not holding a shield." />
+    <string id="PFx_FormFittingOnce" text="{VALUE}% combat movement speed to tier 3+ troops on foot in your formation." />
+    <string id="PFx_FormFittingShield" text="{VALUE}% combat movement speed to tier 3+ troops on foot in your formation, doubled for infantry." />
+    <string id="PFx_FormFitting" text="{VALUE}% combat movement speed to tier 3+ infantry in your formation, and again to tier 3+ troops on foot not holding a shield." />
+    <string id="PFx_NockingPoint" text="{VALUE}% movement speed to troops on foot in your formation wielding a bow." />
+    <string id="PFx_LooseAndMove" text="{VALUE}% movement speed to troops on foot in your formation wielding a ranged weapon." />
+    <string id="PFx_DecisiveBattle" text="{VALUE}% movement speed to troops on foot in your formation in plains, steppes and deserts." />
+    <string id="PFx_ExtendedSkirmish" text="{VALUE}% movement speed to troops on foot in your formation in snowy and forest terrains." />
+    <string id="PFx_SmallUnitTactics" text="{VALUE}% movement speed to troops on foot in your formation when it has 15 or fewer soldiers." />
+    <string id="PFx_McmGroup_Battle" text="Battle" />
+    <string id="PFx_McmGroup_ArmorPenetration" text="Armor penetration" />
+    <string id="PFx_McmGroup_Shattering" text="Shattering Blow/Volley (Mariner, 150)" />
+    <string id="PFx_McmGroup_Vandal" text="Vandal (Two-Handed, 225)" />
+    <string id="PFx_McmGroup_MovementSpeed" text="Movement speed" />
+    <string id="PFx_McmGroup_SkillBonuses" text="Captain skill bonuses for all troops" />
+    <string id="PFx_McmGroup_Mariner" text="Mariner (War Sails)" />
+    <string id="PFx_McmGroup_Campaign" text="Campaign" />
+    <string id="PFx_McmGroup_Crossbow" text="Crossbow" />
+    <string id="PFx_McmGroup_Trade" text="Trade" />
+    <string id="PFx_McmGroup_Medicine" text="Medicine" />
+    <string id="PFx_McmGroup_Engineering" text="Engineering" />
+    <string id="PFx_McmGroup_Tactics" text="Tactics" />
+    <string id="PFx_McmGroup_ArmyCommander" text="Army commander" />
+    <string id="PFx_McmGroup_Boatswain" text="Boatswain (War Sails)" />
+    <string id="PFx_McmGroup_Shipmaster" text="Shipmaster (War Sails)" />
+    <string id="PFx_McmGroup_Descriptions" text="Description fixes" />
+    <string id="PFx_McmGroup_Experimental" text="Experimental" />
+    <string id="PFx_Mcm_ModName" text="Perk Fixes and Rebalance" />
+    <string id="PFx_Mcm_ShatteringNavalOnly" text="Naval battles only" />
+    <string id="PFx_Mcm_ShatteringNavalOnly_Hint" text="The melee (Blow) and ranged (Volley) armor penetration, personal and captain, only applies in naval battles. Vanilla applies it in every battle. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_ShatteringArmorPenetration" text="Armor penetration %" />
+    <string id="PFx_Mcm_ShatteringArmorPenetration_Hint" text="Armor penetration from each perk, personal and captain. Vanilla is 50. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_VandalTwoHandedOnly" text="Two-handed weapons only" />
+    <string id="PFx_Mcm_VandalTwoHandedOnly_Hint" text="The armor penetration only applies to two-handed weapon attacks. Vanilla applies it to every attack, like a general bonus rather than a Two Handed one. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_VandalArmorPenetration" text="Armor penetration %" />
+    <string id="PFx_Mcm_VandalArmorPenetration_Hint" text="Armor penetration from Vandal. Vanilla is 25. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_ShieldMovementSpeedFix" text="Movement speed perks work while holding a shield" />
+    <string id="PFx_Mcm_ShieldMovementSpeedFix_Hint" text="Vanilla skips these while a troop has a shield in its off hand: captain Morning Exercise, Shield Bearer, Fleet of Foot, Reckless Charge, Footwork, Form Fitting Armor and Sprint, and personal Morning Exercise and Self Medication. This applies them with a shield too. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_FormFittingArmorOnce" text="Form Fitting Armor (Athletics, 50): applies once" />
+    <string id="PFx_Mcm_FormFittingArmorOnce_Hint" text="Vanilla adds the captain bonus twice to tier 3+ infantry without a shield (+8%), once to others without a shield, and not at all to non-infantry with a shield. This gives every tier 3+ unmounted troop +4%, as described. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_WrappedHandlesAllTroops" text="Wrapped Handles (One-Handed, 25)" />
+    <string id="PFx_Mcm_WrappedHandlesAllTroops_Hint" text="The captain +One Handed skill goes to every troop in the formation, mounted or on foot. Vanilla skips any troop with a horse in its equipment, so cavalry and horse archers never get it, even on foot. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_StrongGripAllTroops" text="Strong Grip (Two-Handed, 25)" />
+    <string id="PFx_Mcm_StrongGripAllTroops_Hint" text="The captain +Two Handed skill goes to every troop in the formation, mounted or on foot. Vanilla skips any troop with a horse in its equipment, so cavalry and horse archers never get it, even on foot. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_CleanThrustAllTroops" text="Clean Thrust (Polearm, 75)" />
+    <string id="PFx_Mcm_CleanThrustAllTroops_Hint" text="The captain +Polearm skill goes to every troop in the formation, mounted or on foot. Vanilla skips any troop with a horse in its equipment, so cavalry and horse archers never get it, even on foot. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_CounterweightAllTroops" text="Counterweight (Polearm, 250)" />
+    <string id="PFx_Mcm_CounterweightAllTroops_Hint" text="The captain +Polearm skill goes to every troop in the formation, mounted or on foot. Vanilla skips any troop with a horse in its equipment, so cavalry and horse archers never get it, even on foot. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_FlexibleFighterScoreHorseArchers" text="Flexible Fighter (Throwing, 50): also score for horse archers" />
+    <string id="PFx_Mcm_FlexibleFighterScoreHorseArchers_Hint" text="Order-of-battle only. Vanilla tags Foot (infantry and archers). Horse archers get the melee-skill half of the captain bonus but do not score. When on, the tag is Any so horse-archer formations score it too. Does not change who receives the bonus in battle. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_FlexibleFighterCavalry" text="Flexible Fighter (Throwing, 50): cavalry get Bow, Crossbow and Throwing" />
+    <string id="PFx_Mcm_FlexibleFighterCavalry_Hint" text="Cavalry get the same captain skill bonus as infantry. Archers and horse archers still get One Handed, Two Handed and Polearm only. Turn off for vanilla, where cavalry get nothing from this perk. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_PickedShotsCrossbowOnly" text="Picked Shots (250): crossbow troops only" />
+    <string id="PFx_Mcm_PickedShotsCrossbowOnly_Hint" text="The -50% wage for tier 4+ ranged troops and the +5 HP for ranged troops only apply to troops that carry a crossbow. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_ArtisanCommunityQuartermaster" text="Artisan Community (125): recruit slot from quartermaster" />
+    <string id="PFx_Mcm_ArtisanCommunityQuartermaster_Hint" text="The +1 recruitment slot with merchant notables comes from the quartermaster of the recruiting hero's party, as described. Vanilla reads the recruiting hero (usually the party leader). Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_RapidDevelopmentQuartermaster" text="Rapid Development (175): price discount from quartermaster" />
+    <string id="PFx_Mcm_RapidDevelopmentQuartermaster_Hint" text="The -25% price when buying clay, iron, raw silk and silver only needs the quartermaster to have the perk, as described. Vanilla also needs the clan leader to have it. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_SledgesSurgeon" text="Sledges (75): mount HP from surgeon" />
+    <string id="PFx_Mcm_SledgesSurgeon_Hint" text="The +15 mount HP comes from the party surgeon instead of the party leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_FortitudeTonicSurgeon" text="Fortitude Tonic (225): hero HP from surgeon" />
+    <string id="PFx_Mcm_FortitudeTonicSurgeon_Hint" text="The party-wide +HP goes to every hero except the surgeon, instead of every hero except the leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_MinisterOfHealthSurgeon" text="Minister of Health (275): troop HP from surgeon" />
+    <string id="PFx_Mcm_MinisterOfHealthSurgeon_Hint" text="Troop HP bonus reads the surgeon's perk and Medicine instead of the leader's, in battles and in RBM's auto-resolve. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_MinisterOfHealthHitpointsPerSkillPoint" text="Minister of Health (275): HP per Medicine point above 250" />
+    <string id="PFx_Mcm_MinisterOfHealthHitpointsPerSkillPoint_Hint" text="Troop HP per Medicine point above 250, from whoever holds the perk. Vanilla is 1. The default 0.675 gives +50 HP at 330 Medicine. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_MasterworkEngineerSkill" text="Masterwork (275): skill from engineer" />
+    <string id="PFx_Mcm_MasterworkEngineerSkill_Hint" text="The siege engine damage scales with the Engineering of the engineer, who is the one that needs the perk. Vanilla uses the party leader's Engineering. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_TacticalMasteryPartyLeader" text="Tactical Mastery (275): party leader" />
+    <string id="PFx_Mcm_TacticalMasteryPartyLeader_Hint" text="Vanilla labels Mastery as army commander but only ever buffs the army leader's own party, and only while an army exists. This makes it a party leader perk so any party (including a lone one) gets it from its leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_ArmyCommanderPerksWhenAlone" text="Army commander perks apply without an army" />
+    <string id="PFx_Mcm_ArmyCommanderPerksWhenAlone_Hint" text="On The March, Great Leader (battle-start morale), Enemy of the Wood, and Commodore also work for a party that is not in an army, using that party's leader. Does not invent a commander for ad-hoc multi-party battles. Encirclement combat is already party leader; its cohesion discount still needs a real army. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_StreamlinedOperationsFirstMate" text="Streamlined Operations (50): ballista reload from first mate" />
+    <string id="PFx_Mcm_StreamlinedOperationsFirstMate_Hint" text="The +10% ballista reload speed in naval battles comes from the first mate, as described. Vanilla reads it from the formation captain, where it never applies. Also says reload speed instead of reload time. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_GildedPurseFirstMate" text="Gilded Purse (100): ship capture from first mate" />
+    <string id="PFx_Mcm_GildedPurseFirstMate_Hint" text="The ship capture chance comes from the first mate instead of the party leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_ArrPirateHunterCaptainXp" text="Arr! / Pirate Hunter (175): captain battle XP" />
+    <string id="PFx_Mcm_ArrPirateHunterCaptainXp_Hint" text="Captain XP after naval battles works from the formation captain (like Inspiring Leader). Vanilla never applies it: it uses party HasPerk for the Captain role, which always fails. Naval battles only; descriptions and captain scoring match. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_SpecialArrowsFirstMate" text="Special Arrows (125): sail damage from first mate" />
+    <string id="PFx_Mcm_SpecialArrowsFirstMate_Hint" text="The +40% damage to enemy sails from troops' fire arrows comes from the first mate, as described. Vanilla reads it from the formation captain and adds the captain value instead (+5 flat damage). Captain +5 armor for tier 1-3 troops stays with the captain and only applies in naval battles. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_SmoothOperatorFirstMate" text="Smooth Operator (150): ballista ammo from first mate" />
+    <string id="PFx_Mcm_SmoothOperatorFirstMate_Hint" text="The +5 ballista ammo comes from the ship owner's first mate, as described. Vanilla reads it from the ship's captain, where it never applies. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_AccuracyTrainingFirstMate" text="Accuracy Training (150): ranged shield damage from first mate" />
+    <string id="PFx_Mcm_AccuracyTrainingFirstMate_Hint" text="The +30% ranged damage to shields in naval battles comes from the first mate, as described. Vanilla reads it from the formation captain, where it never applies. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_PopularCaptainFirstMate" text="Popular Captain (175): deck size from first mate" />
+    <string id="PFx_Mcm_PopularCaptainFirstMate_Hint" text="The deck size bonus comes from the first mate instead of the party leader. The mariner recruitment discount stays with the leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_PortAuthorityFirstMate" text="Port Authority (200): ship limit from first mate" />
+    <string id="PFx_Mcm_PortAuthorityFirstMate_Hint" text="The +1 ship to the command limit comes from the first mate instead of the party leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_BlessingsOfTheSeaFirstMate" text="Blessings of the Sea (200): ship limit from first mate" />
+    <string id="PFx_Mcm_BlessingsOfTheSeaFirstMate_Hint" text="The +1 ship to the command limit comes from the first mate instead of the party leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_ShipwrightsHandFirstMate" text="Shipwright's Hand (225): ship repair from first mate" />
+    <string id="PFx_Mcm_ShipwrightsHandFirstMate_Hint" text="Repairing your ships from discarded ones comes from the first mate instead of the party leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_MerchantFleetFirstMate" text="Merchant Fleet (250): battle ship limit from first mate" />
+    <string id="PFx_Mcm_MerchantFleetFirstMate_Hint" text="The +1 ship to the battle limit comes from the first mate instead of the party leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_UnflinchingNavigator" text="Unflinching (175): disembark speed from navigator" />
+    <string id="PFx_Mcm_UnflinchingNavigator_Hint" text="The faster disembarking comes from the navigator instead of the party leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_ShoreMasterNavigator" text="Shore Master (175): recall time from navigator" />
+    <string id="PFx_Mcm_ShoreMasterNavigator_Hint" text="The halved ship recall time comes from the navigator instead of the party leader, so both effects are the navigator's. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_FleetCommanderNavigator" text="Fleet Commander (200): both effects from navigator" />
+    <string id="PFx_Mcm_FleetCommanderNavigator_Hint" text="Both effects (fleet-size speed penalty and skeleton crew) come from the navigator instead of the party leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_StormriderNavigator" text="Stormrider (225): ship limit from navigator" />
+    <string id="PFx_Mcm_StormriderNavigator_Hint" text="The +1 ship limit comes from the navigator instead of the party leader. The troop XP stays with the leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_MasterAndCommanderNavigator" text="Master and Commander (225): ship limit from navigator" />
+    <string id="PFx_Mcm_MasterAndCommanderNavigator_Hint" text="The +1 ship limit comes from the navigator instead of the party leader. The troop XP stays with the leader. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_ClarifyPerkDescriptions" text="Clarify perk descriptions" />
+    <string id="PFx_Mcm_ClarifyPerkDescriptions_Hint" text="Clearer perk tooltips only: captain conditions, quiver types, auto-resolve wording, and similar. No gameplay change. Turn off if another mod edits those texts. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_LeaderOrRoleHero" text="Role perks from party leader or role hero" />
+    <string id="PFx_Mcm_LeaderOrRoleHero_Hint" text="A scout, quartermaster, surgeon, engineer, first mate or navigator effect applies if either that role's hero or the party leader has the perk (once). Skill-scaling uses the higher skill. Ship-limit pairs still give +1. Also applies to AI. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx_Mcm_TacticsBattleEffects" text="Tactics auto-resolve effects in battles" />
+    <string id="PFx_Mcm_TacticsBattleEffects_Hint" text="Auto-resolve Tactics bonuses also apply in battles you fight, at about 20%–50% strength. Land battles for most effects; Tactical Mastery also at sea at half rate. Captain bonuses are unchanged. Applies when you click Done, or when a game is loaded." />
+    <string id="PFx5_TacticsFightDealt" text="Damage dealt by troops in land battles you fight: +{a0}%" />
+    <string id="PFx5_TacticsFightTaken" text="Damage taken by troops in land battles you fight: -{a0}%" />
+  </strings>
+</base>
