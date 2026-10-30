@@ -19,4 +19,4 @@ Initial Nexus release. See `NEXUS.md`.
 
 ## 1.0.3
 
-- Localization support: every player-facing string (perk tooltips and MCM) has a translation key; English template ships under `ModuleData/Languages/`. Untranslated languages still show English. Thanks to OhMyMike57 / Cartoonist57.
+- Localization support: every player-facing string (perk tooltips and MCM) has a translation key; English template ships under `ModuleData/Languages/`. Untranslated languages still show English. Thanks to [Cartoonist57](https://forums.nexusmods.com/profile/3230702-cartoonist57/) (OhMyMike57 on GitHub).
